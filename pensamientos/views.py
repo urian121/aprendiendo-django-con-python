@@ -1,4 +1,7 @@
 from django.shortcuts import render
+
+# Aqui se importan los Modelos de la aplicacion
+# from .models import Article
 import datetime  # Modulo de Python
 
 

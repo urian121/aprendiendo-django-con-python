@@ -110,6 +110,7 @@ COMANDO ADICIONALES:
 
 9. Driver para conectar MySQL con Django
    pip install pymysql
+   pip install mysqlclient
 
 Jinja2 (una biblioteca de plantillas)
 Django es un framework web gratuito y de código abierto publicado por primera vez en 2005 por

@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+# Mapea las URLs a funciones callback de Python («vistas»)
 urlpatterns = [
     path('', views.inicio, name='inicio'),
     path('saludar/<str:nombre>', views.saludar, name='saludar'),
